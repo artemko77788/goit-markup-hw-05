@@ -242,9 +242,8 @@ ul {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
   opacity: 1;
-
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop.is-hidden .modal {
@@ -263,7 +262,6 @@ ul {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
-
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -276,7 +274,6 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-
   position: absolute;
   top: 8px;
   right: 8px;
